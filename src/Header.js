@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import './Header.css';
+import SearchIcon from "@material-ui/icons/Search";
 
 
 function Header() {
@@ -11,7 +12,8 @@ function Header() {
                 src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"></img>
             
             <div className="header__search">
-                <input className="header__searchInput" type="text"></input>                
+                <input className="header__searchInput" type="text" />
+                <SearchIcon className="header__searchIcon"/>               
             </div>
 
             
