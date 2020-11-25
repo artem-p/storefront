@@ -26,6 +26,10 @@
     margin-bottom: 15px;
 }
 
+.product__rating {
+    display: flex;
+}
+
 .product__button {
     background: #f0c14b;
     border: 1px solid;
