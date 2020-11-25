@@ -16,8 +16,11 @@ function Product() {
                     <p>⭐</p>
                 </div>
 
-                <img src="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg" alt=""/>
             </div>
+            
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg" alt=""/>
+
+            <button className="product__button">Add to Basket</button>
         </div>
     )
 }
