@@ -2,6 +2,7 @@ import { BatteryUnknownRounded } from '@material-ui/icons';
 import React from 'react';
 import './Home.css';
 import homeBanner from './img/home_banner.jpg';
+import Product from './Product';
 
 
 function Home() {
@@ -9,6 +10,18 @@ function Home() {
         <div className="home">
             <div className="home__container">
                 <img className='home__image' src={homeBanner} alt=""/>
+            </div>
+            
+            <div className="home__row">
+                <Product />
+            </div>
+            
+            <div className="home__row">
+
+            </div>
+            
+            <div className="home__row">
+
             </div>
         </div>
     )
